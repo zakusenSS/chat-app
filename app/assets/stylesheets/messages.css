@@ -1,7 +1,6 @@
 .wrapper {
   display: flex;
 }
-
 .side-bar {
   background-color: #253141;
   width: 300px;
@@ -87,7 +86,7 @@
   margin: 10px 0 0 0;
 }
 
-.upper-message {
+.upper-message{
   display: flex;
 }
 
@@ -136,7 +135,7 @@
   background-color: #38AEF0;
   border: none;
   color: white;
-  font-size:  16px;
+  font-size: 16px;
   height: 50px;
   margin-left: 15px;
   padding: 0 20px;
@@ -155,4 +154,3 @@
 .hidden {
   display: none;
 }
-
