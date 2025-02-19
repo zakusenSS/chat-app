@@ -21,10 +21,10 @@ RSpec.describe Message, type: :model do
     end
     context 'メッセージが投稿できない場合' do
       it 'contentとimageが空では保存できない' do
-      @message.content = ''
-      @message.image = nil
-      @message.valid?
-      expect(@message.errors.full_messages).to include("Content can't be blank")
+        @message.content = ''
+        @message.image = nil
+        @message.valid?
+        expect(@message.errors.full_messages).to include("Content can't be blank")
       end
       it 'roomが紐付いていないと保存できない' do
         @message.room = nil
@@ -39,4 +39,3 @@ RSpec.describe Message, type: :model do
     end
   end
 end
-
